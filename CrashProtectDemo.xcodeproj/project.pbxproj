@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1782B96624640DC80078C84A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B96524640DC80078C84A /* AppDelegate.m */; };
+		1782B96924640DC80078C84A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B96824640DC80078C84A /* SceneDelegate.m */; };
+		1782B96C24640DC80078C84A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B96B24640DC80078C84A /* ViewController.m */; };
+		1782B96F24640DC80078C84A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1782B96D24640DC80078C84A /* Main.storyboard */; };
+		1782B97124640DC90078C84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1782B97024640DC90078C84A /* Assets.xcassets */; };
+		1782B97424640DC90078C84A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1782B97224640DC90078C84A /* LaunchScreen.storyboard */; };
+		1782B97724640DC90078C84A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B97624640DC90078C84A /* main.m */; };
+		1782B98F24640E3D0078C84A /* NSString+LACrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B97F24640E3D0078C84A /* NSString+LACrash.m */; };
+		1782B99024640E3D0078C84A /* NSMutableDictionary+LACrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B98024640E3D0078C84A /* NSMutableDictionary+LACrash.m */; };
+		1782B99124640E3D0078C84A /* NSArray+LACrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B98224640E3D0078C84A /* NSArray+LACrash.m */; };
+		1782B99224640E3D0078C84A /* NSAttributedString+LACrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B98324640E3D0078C84A /* NSAttributedString+LACrash.m */; };
+		1782B99324640E3D0078C84A /* NSMutableAttributedString+LACrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B98724640E3D0078C84A /* NSMutableAttributedString+LACrash.m */; };
+		1782B99424640E3D0078C84A /* NSMutableString+LACrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B98A24640E3D0078C84A /* NSMutableString+LACrash.m */; };
+		1782B99524640E3D0078C84A /* NSDictionary+LACrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B98D24640E3D0078C84A /* NSDictionary+LACrash.m */; };
+		1782B99624640E3D0078C84A /* NSMutableArray+LACrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B98E24640E3D0078C84A /* NSMutableArray+LACrash.m */; };
+		1782B9A524640FAB0078C84A /* NSObject+SelectorCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B99724640FAB0078C84A /* NSObject+SelectorCrash.m */; };
+		1782B9A624640FAB0078C84A /* NSTimer+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B99824640FAB0078C84A /* NSTimer+Crash.m */; };
+		1782B9A724640FAB0078C84A /* LACrashProtectorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B99B24640FAB0078C84A /* LACrashProtectorManager.m */; };
+		1782B9A824640FAB0078C84A /* NSObject+NSNotificationCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B99C24640FAB0078C84A /* NSObject+NSNotificationCrash.m */; };
+		1782B9A924640FAB0078C84A /* NSObject+LASwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B9A024640FAB0078C84A /* NSObject+LASwizzle.m */; };
+		1782B9AA24640FAB0078C84A /* NSObject+KVOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B9A324640FAB0078C84A /* NSObject+KVOCrash.m */; };
+		1782B9AB24640FAB0078C84A /* LACrashLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B9A424640FAB0078C84A /* LACrashLog.m */; };
+		1782B9AE2466F16F0078C84A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782B9AD2466F16F0078C84A /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1782B96124640DC80078C84A /* CrashProtectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashProtectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1782B96424640DC80078C84A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1782B96524640DC80078C84A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1782B96724640DC80078C84A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1782B96824640DC80078C84A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1782B96A24640DC80078C84A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1782B96B24640DC80078C84A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1782B96E24640DC80078C84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1782B97024640DC90078C84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1782B97324640DC90078C84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1782B97524640DC90078C84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1782B97624640DC90078C84A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1782B97F24640E3D0078C84A /* NSString+LACrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LACrash.m"; sourceTree = "<group>"; };
+		1782B98024640E3D0078C84A /* NSMutableDictionary+LACrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LACrash.m"; sourceTree = "<group>"; };
+		1782B98124640E3D0078C84A /* NSMutableAttributedString+LACrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+LACrash.h"; sourceTree = "<group>"; };
+		1782B98224640E3D0078C84A /* NSArray+LACrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LACrash.m"; sourceTree = "<group>"; };
+		1782B98324640E3D0078C84A /* NSAttributedString+LACrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LACrash.m"; sourceTree = "<group>"; };
+		1782B98424640E3D0078C84A /* NSMutableString+LACrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+LACrash.h"; sourceTree = "<group>"; };
+		1782B98524640E3D0078C84A /* NSMutableArray+LACrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LACrash.h"; sourceTree = "<group>"; };
+		1782B98624640E3D0078C84A /* NSDictionary+LACrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LACrash.h"; sourceTree = "<group>"; };
+		1782B98724640E3D0078C84A /* NSMutableAttributedString+LACrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+LACrash.m"; sourceTree = "<group>"; };
+		1782B98824640E3D0078C84A /* NSMutableDictionary+LACrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LACrash.h"; sourceTree = "<group>"; };
+		1782B98924640E3D0078C84A /* NSString+LACrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LACrash.h"; sourceTree = "<group>"; };
+		1782B98A24640E3D0078C84A /* NSMutableString+LACrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+LACrash.m"; sourceTree = "<group>"; };
+		1782B98B24640E3D0078C84A /* NSArray+LACrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LACrash.h"; sourceTree = "<group>"; };
+		1782B98C24640E3D0078C84A /* NSAttributedString+LACrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LACrash.h"; sourceTree = "<group>"; };
+		1782B98D24640E3D0078C84A /* NSDictionary+LACrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LACrash.m"; sourceTree = "<group>"; };
+		1782B98E24640E3D0078C84A /* NSMutableArray+LACrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LACrash.m"; sourceTree = "<group>"; };
+		1782B99724640FAB0078C84A /* NSObject+SelectorCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SelectorCrash.m"; sourceTree = "<group>"; };
+		1782B99824640FAB0078C84A /* NSTimer+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Crash.m"; sourceTree = "<group>"; };
+		1782B99924640FAB0078C84A /* LACrashProtectorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LACrashProtectorManager.h; sourceTree = "<group>"; };
+		1782B99A24640FAB0078C84A /* NSObject+LASwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LASwizzle.h"; sourceTree = "<group>"; };
+		1782B99B24640FAB0078C84A /* LACrashProtectorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LACrashProtectorManager.m; sourceTree = "<group>"; };
+		1782B99C24640FAB0078C84A /* NSObject+NSNotificationCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSNotificationCrash.m"; sourceTree = "<group>"; };
+		1782B99D24640FAB0078C84A /* NSObject+SelectorCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SelectorCrash.h"; sourceTree = "<group>"; };
+		1782B99E24640FAB0078C84A /* NSObject+NSNotificationCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSNotificationCrash.h"; sourceTree = "<group>"; };
+		1782B99F24640FAB0078C84A /* NSObject+KVOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOCrash.h"; sourceTree = "<group>"; };
+		1782B9A024640FAB0078C84A /* NSObject+LASwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LASwizzle.m"; sourceTree = "<group>"; };
+		1782B9A124640FAB0078C84A /* NSTimer+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Crash.h"; sourceTree = "<group>"; };
+		1782B9A224640FAB0078C84A /* LACrashLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LACrashLog.h; sourceTree = "<group>"; };
+		1782B9A324640FAB0078C84A /* NSObject+KVOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOCrash.m"; sourceTree = "<group>"; };
+		1782B9A424640FAB0078C84A /* LACrashLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LACrashLog.m; sourceTree = "<group>"; };
+		1782B9AC2466F16F0078C84A /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1782B9AD2466F16F0078C84A /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1782B95E24640DC80078C84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1782B95824640DC80078C84A = {
+			isa = PBXGroup;
+			children = (
+				1782B96324640DC80078C84A /* CrashProtectDemo */,
+				1782B96224640DC80078C84A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1782B96224640DC80078C84A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1782B96124640DC80078C84A /* CrashProtectDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1782B96324640DC80078C84A /* CrashProtectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1782B97D24640DD30078C84A /* LACrashProtector */,
+				1782B96424640DC80078C84A /* AppDelegate.h */,
+				1782B96524640DC80078C84A /* AppDelegate.m */,
+				1782B96724640DC80078C84A /* SceneDelegate.h */,
+				1782B96824640DC80078C84A /* SceneDelegate.m */,
+				1782B96A24640DC80078C84A /* ViewController.h */,
+				1782B96B24640DC80078C84A /* ViewController.m */,
+				1782B9AC2466F16F0078C84A /* Person.h */,
+				1782B9AD2466F16F0078C84A /* Person.m */,
+				1782B96D24640DC80078C84A /* Main.storyboard */,
+				1782B97024640DC90078C84A /* Assets.xcassets */,
+				1782B97224640DC90078C84A /* LaunchScreen.storyboard */,
+				1782B97524640DC90078C84A /* Info.plist */,
+				1782B97624640DC90078C84A /* main.m */,
+			);
+			path = CrashProtectDemo;
+			sourceTree = "<group>";
+		};
+		1782B97D24640DD30078C84A /* LACrashProtector */ = {
+			isa = PBXGroup;
+			children = (
+				1782B97E24640E3D0078C84A /* Container */,
+				1782B99F24640FAB0078C84A /* NSObject+KVOCrash.h */,
+				1782B9A324640FAB0078C84A /* NSObject+KVOCrash.m */,
+				1782B99E24640FAB0078C84A /* NSObject+NSNotificationCrash.h */,
+				1782B99C24640FAB0078C84A /* NSObject+NSNotificationCrash.m */,
+				1782B99D24640FAB0078C84A /* NSObject+SelectorCrash.h */,
+				1782B99724640FAB0078C84A /* NSObject+SelectorCrash.m */,
+				1782B99A24640FAB0078C84A /* NSObject+LASwizzle.h */,
+				1782B9A024640FAB0078C84A /* NSObject+LASwizzle.m */,
+				1782B9A124640FAB0078C84A /* NSTimer+Crash.h */,
+				1782B99824640FAB0078C84A /* NSTimer+Crash.m */,
+				1782B9A224640FAB0078C84A /* LACrashLog.h */,
+				1782B9A424640FAB0078C84A /* LACrashLog.m */,
+				1782B99924640FAB0078C84A /* LACrashProtectorManager.h */,
+				1782B99B24640FAB0078C84A /* LACrashProtectorManager.m */,
+			);
+			path = LACrashProtector;
+			sourceTree = "<group>";
+		};
+		1782B97E24640E3D0078C84A /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				1782B97F24640E3D0078C84A /* NSString+LACrash.m */,
+				1782B98024640E3D0078C84A /* NSMutableDictionary+LACrash.m */,
+				1782B98124640E3D0078C84A /* NSMutableAttributedString+LACrash.h */,
+				1782B98224640E3D0078C84A /* NSArray+LACrash.m */,
+				1782B98324640E3D0078C84A /* NSAttributedString+LACrash.m */,
+				1782B98424640E3D0078C84A /* NSMutableString+LACrash.h */,
+				1782B98524640E3D0078C84A /* NSMutableArray+LACrash.h */,
+				1782B98624640E3D0078C84A /* NSDictionary+LACrash.h */,
+				1782B98724640E3D0078C84A /* NSMutableAttributedString+LACrash.m */,
+				1782B98824640E3D0078C84A /* NSMutableDictionary+LACrash.h */,
+				1782B98924640E3D0078C84A /* NSString+LACrash.h */,
+				1782B98A24640E3D0078C84A /* NSMutableString+LACrash.m */,
+				1782B98B24640E3D0078C84A /* NSArray+LACrash.h */,
+				1782B98C24640E3D0078C84A /* NSAttributedString+LACrash.h */,
+				1782B98D24640E3D0078C84A /* NSDictionary+LACrash.m */,
+				1782B98E24640E3D0078C84A /* NSMutableArray+LACrash.m */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1782B96024640DC80078C84A /* CrashProtectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1782B97A24640DC90078C84A /* Build configuration list for PBXNativeTarget "CrashProtectDemo" */;
+			buildPhases = (
+				1782B95D24640DC80078C84A /* Sources */,
+				1782B95E24640DC80078C84A /* Frameworks */,
+				1782B95F24640DC80078C84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrashProtectDemo;
+			productName = CrashProtectDemo;
+			productReference = 1782B96124640DC80078C84A /* CrashProtectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1782B95924640DC80078C84A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "liberty air";
+				TargetAttributes = {
+					1782B96024640DC80078C84A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1782B95C24640DC80078C84A /* Build configuration list for PBXProject "CrashProtectDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1782B95824640DC80078C84A;
+			productRefGroup = 1782B96224640DC80078C84A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1782B96024640DC80078C84A /* CrashProtectDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1782B95F24640DC80078C84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1782B97424640DC90078C84A /* LaunchScreen.storyboard in Resources */,
+				1782B97124640DC90078C84A /* Assets.xcassets in Resources */,
+				1782B96F24640DC80078C84A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1782B95D24640DC80078C84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1782B9AA24640FAB0078C84A /* NSObject+KVOCrash.m in Sources */,
+				1782B96C24640DC80078C84A /* ViewController.m in Sources */,
+				1782B9AE2466F16F0078C84A /* Person.m in Sources */,
+				1782B9A724640FAB0078C84A /* LACrashProtectorManager.m in Sources */,
+				1782B99224640E3D0078C84A /* NSAttributedString+LACrash.m in Sources */,
+				1782B9AB24640FAB0078C84A /* LACrashLog.m in Sources */,
+				1782B99524640E3D0078C84A /* NSDictionary+LACrash.m in Sources */,
+				1782B96624640DC80078C84A /* AppDelegate.m in Sources */,
+				1782B9A824640FAB0078C84A /* NSObject+NSNotificationCrash.m in Sources */,
+				1782B9A924640FAB0078C84A /* NSObject+LASwizzle.m in Sources */,
+				1782B97724640DC90078C84A /* main.m in Sources */,
+				1782B99424640E3D0078C84A /* NSMutableString+LACrash.m in Sources */,
+				1782B99024640E3D0078C84A /* NSMutableDictionary+LACrash.m in Sources */,
+				1782B99624640E3D0078C84A /* NSMutableArray+LACrash.m in Sources */,
+				1782B9A524640FAB0078C84A /* NSObject+SelectorCrash.m in Sources */,
+				1782B99324640E3D0078C84A /* NSMutableAttributedString+LACrash.m in Sources */,
+				1782B9A624640FAB0078C84A /* NSTimer+Crash.m in Sources */,
+				1782B98F24640E3D0078C84A /* NSString+LACrash.m in Sources */,
+				1782B96924640DC80078C84A /* SceneDelegate.m in Sources */,
+				1782B99124640E3D0078C84A /* NSArray+LACrash.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1782B96D24640DC80078C84A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1782B96E24640DC80078C84A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1782B97224640DC90078C84A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1782B97324640DC90078C84A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1782B97824640DC90078C84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1782B97924640DC90078C84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1782B97B24640DC90078C84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrashProtectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liberty.CrashProtectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1782B97C24640DC90078C84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrashProtectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liberty.CrashProtectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1782B95C24640DC80078C84A /* Build configuration list for PBXProject "CrashProtectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1782B97824640DC90078C84A /* Debug */,
+				1782B97924640DC90078C84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1782B97A24640DC90078C84A /* Build configuration list for PBXNativeTarget "CrashProtectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1782B97B24640DC90078C84A /* Debug */,
+				1782B97C24640DC90078C84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1782B95924640DC80078C84A /* Project object */;
+}
